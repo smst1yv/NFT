@@ -1,0 +1,911 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body,
+html {
+    background-color: rgba(242, 242, 242, 1);
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1176px;
+    margin: 79px auto;
+}
+
+.logo img {
+    width: 76px;
+    height: 41.27px;
+}
+
+.button-icon {
+    display: flex;
+}
+
+.button-icon img {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    color: rgba(214, 10, 255, 1);
+}
+
+.menu-container ul {
+    display: flex;
+}
+
+.menu-container ul li {
+    margin-right: 30px;
+}
+
+.menu-container ul li a {
+    color: rgba(90, 90, 90, 1);
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s all;
+}
+.menu-container ul li a:hover{
+    color: rgba(204, 0, 255, 1);
+    transition: 0.3s all;
+}
+
+.button-icon a {
+    align-items: center;
+    display: flex;
+    background-color: rgba(204, 0, 255, 1);
+    padding: 16px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.world-container {
+    display: flex;
+    width: 1116px;
+    margin: 152px auto;
+}
+
+.nft-container {
+    height: 500px;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nft-container h2 {
+    font-size: 50px;
+    width: 525px;
+    height: 125px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.nft-container .nft-p {
+    width: 451px;
+    height: 78px;
+    font-size: 16px;
+    margin-left: -68px;
+    margin-bottom: 70px;
+}
+
+.slider {
+    height: 500px;
+    flex: 1;
+}
+
+.nft-container a {
+    padding: 11px 39px;
+    background: #CC00FF;
+    border-radius: 5px;
+    color: white;
+    margin-left: -349px;
+    margin-bottom: 114px;
+}
+
+.project-complete {
+    background-color: white;
+    width: 179px;
+    height: 84px;
+}
+
+.project-container {
+    display: flex;
+    margin-left: -80px;
+}
+
+.slider-img img {
+    width: 423px;
+    height: 507px;
+}
+
+.slider-img .modhimito-img img {
+    width: 122px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.slider-img .modhimito-img .left {
+    width: 40px;
+    height: 40px;
+}
+
+.slider-img .modhimito-img .right {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.slider-img .modhimito-img {
+    display: flex;
+}
+
+.modhimito-img .left-right {
+    position: relative;
+    left: 220px;
+}
+
+.slider-img .play {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 250px;
+    top: -214px;
+    cursor: pointer;
+}
+
+.project-complete .project-p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: rgba(90, 90, 90, 1);
+}
+
+.project-complete .complete-p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.nft-complete {
+    width: 87px;
+    height: 84px;
+    background-color: white;
+}
+
+.nft-complete .nft-cr-p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(90, 90, 90, 1);
+}
+
+.nft-complete .nft-p-two {
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.review-container {
+    width: 97px;
+    height: 84px;
+    background-color: #CC00FF;
+}
+
+.review-p {
+    font-size: 18px;
+    color: rgba(90, 90, 90, 1);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.review-container,
+.nft-complete {
+    margin-left: 30px
+}
+
+.nft-category-container {
+    width: 1116px;
+    margin: 152px auto;
+}
+
+.nft-cart {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nft-art {
+    width: 279px;
+    height: 274px;
+}
+
+.nft-art img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.nft-head-text h3 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.nft-category-container .nft-cart .nft-art a {
+    position: relative;
+    left: 50px;
+    bottom: 72px;
+    font-size: 20px;
+    padding: 14px 36px;
+    color: #000;
+    font-weight: 600;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.nft-category-container .nft-cart .nft-art a:hover {
+    background-color: #CC00FF;
+    transition: 0.2s;
+}
+
+.nft-category-container .nft-cart .nft-art:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.live-auctions {
+    width: 1176px;
+    margin: 121px auto;
+}
+
+.live-text h3 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.live-text img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 10px;
+}
+
+.live-text {
+    display: flex;
+    align-items: center;
+}
+
+.auctions-cart {
+    background-color: #fff;
+    width: 270px;
+    height: 337px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.auctions-cart .gravity {
+    width: 230px;
+    height: 148px;
+    position: relative;
+    left: 20px;     
+    top: 20px;
+    border-radius: 10px;
+}
+.auctions-cart img:nth-child(2){
+    width: 60px;
+    height: 41px;
+    object-fit: contain;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.auctions-cart img:nth-child(3){
+    width: 60px;
+    height: 41px;
+    object-fit: contain;
+    position: relative;
+    top: 25px;
+    margin-left: -8px;
+}
+.auctions-cart .person{
+    font-size: 10px;
+    position: relative;
+    left: 120px;
+    top: -5px;
+    color: #5A5A5A;
+}
+.auctions-cart .like-img{
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        padding: 8px 7px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.auctions-cart img:nth-child(5){
+    object-fit: contain;
+    position: relative;
+    top: -35px;
+    left: 200px;
+}
+.auctions-cart h3{
+    position: relative;
+    transition: 0.3s;
+    left: 18px;
+    top: -25px;
+    cursor: pointer;
+}
+.auctions-cart h3:hover{
+    color: rgba(204, 0, 255, 1);
+    transition: 0.3s;
+}
+.auctions-price{
+    width: 230px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+.auctions-price h4{
+    font-size: 14px;
+    font-weight:bold;
+    position: relative;
+    left: 10px;
+}
+.auctions-price p{
+    position: relative;
+    left: 90px;
+    width: 56px;
+    height: 14px;
+    font-size: 12px;
+    color: rgba(90, 90, 90, 1);
+}
+.auctions-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-container{
+    width: 1176px;
+    margin: 121px auto;
+}
+
+.product-container .product-text h3{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.product-nft-cart{
+    width: 370px;
+    height: 363px;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.product-nft-cart .otlar{
+    height: 370px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+.product-nft-cart h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.product-nft-cart h4:hover{
+    color: rgba(204, 0, 255, 1);
+}
+.product-nft-cart p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.product-nft-cart .heartt{
+    position: relative;
+    left: 300px;
+    top: -60px;
+}
+.product-nft-cart .product-pice{
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+.product-nft-cart .current-bid{
+    position: relative;
+    top: -58px;
+    left: 280px;
+}
+.product-nft-cart .current-bid p{
+    position: relative;
+    top: -5px;
+    left: -15px;
+}
+.product-cart{
+    display: flex;
+    flex-wrap: wrap;
+}
+.creator-container{
+    width: 1176px;
+    margin: 121px auto;
+}
+.creator-cart-container .creator-cart{
+    width: 170px;
+    height: 245px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.creator-cart-container .creator-cart img{
+    width: 134px;
+    height: 105px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.creator-cart-container .creator-cart h5{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.creator-cart-container .creator-cart p{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.creator-cart-container .creator-cart a{
+    padding: 15px 29px;
+    background-color: rgba(243, 193, 255, 1);
+    color: rgba(90, 90, 90, 1);
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.creator-cart-container .creator-cart a:hover{
+    background-color: rgba(204, 0, 255, 1);
+    color: #fff;
+    transition: 0.3s;
+}
+.creator-text h4{
+    font-size: 40px;
+    color:  rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+.creator-cart-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.creator-cart{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.assets-container{
+    width: 1176px;
+    margin: 121px auto;
+}
+.assets-container .assets-text-menu .assets-text h4{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.assets-container .assets-text-menu .assets-text p{
+    width: 466px;
+    height: 72px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(90, 90, 90, 1);
+}
+.assets-text-menu{
+    display: flex;
+}
+.assets-text-menu .assets-menu{
+    position: relative;
+    right: -190px;
+    top: 10px;
+}
+.assets-container .assets-text-menu .assets-menu ul{
+    display: flex;
+}
+.assets-container .assets-text-menu .assets-menu ul li a{
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 10px 18px;
+    color: rgba(90, 90, 90, 1);
+    transition: 0.3s;
+}
+.assets-container .assets-text-menu .assets-menu ul li a:hover{
+    background-color: #CC00FF;
+    color: #fff;
+    transition: 0.3s;
+}
+.assets-cart-container .assets-cart{
+    width: 370px;
+    height: 462px;
+    background-color: #fff;
+}
+.assets-cart-container .assets-cart img{
+    width: 319px;
+    height: 245px;
+    object-fit: contain;
+    margin-left: 25px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.06);
+}
+.assets-cart-container .assets-cart .editor-img-star .editor{
+    width: 50.13px;
+    height: 63.82px;
+    box-shadow: none;
+}
+.editor-img-star{
+    display: flex;
+    align-items: center;
+}
+.assets-cart-container .assets-cart .editor-img-star .star{
+    width: 33px;
+    height: 16px;
+    box-shadow: none;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    margin-left: 50px;
+}
+.assets-cart-container .assets-cart .editor-img-star h4{
+    color: #5A5A5A;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+.assets-cart h3{
+    color: #363636;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.assets-cart h3:hover{
+    color: #CC00FF;
+    transition: 0.3s all;
+}
+.assets-cart .assets-price{
+    width: 330px;
+    height: 62px;
+    border: 0.3px solid #000000;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.assets-price p{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.assets-price h6{
+    font-size: 16px;
+    position: relative;
+    left: 240px;
+    bottom: 35px;
+}
+.assets-cart{
+    transition: 0.2s;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.assets-cart:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+.assets-cart-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.discover-container{
+    display: flex;
+    width: 1176px;
+    margin: 121px auto;
+}
+.discover-text{
+    background-color: #fff;
+    width: 610px;
+    margin-left: 10px;
+    border-radius: 15px;
+    height: 384px;
+}
+
+.discover-text h3{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    width: 461px;
+    margin-bottom: 53px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.discover-text a{
+    padding: 15px 41px;
+    background-color: rgba(204, 0, 255, 1);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.arakesme{
+    width: 250px;
+    background: linear-gradient(93.7deg, #FFFFFF 14.56%, rgba(255, 255, 255, 0.54981) 35.71%, #FFFFFF 43.91%, #FFFFFF 51.13%, rgba(255, 255, 255, 0.92) 61.38%, rgba(255, 255, 255, 0.58) 72.81%, rgba(255, 255, 255, 0) 99.72%);
+    margin-left: -10px;
+}
+
+.discover-img img{
+    width: 551px;
+    height: 384px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.top-seller-container{
+    width: 1176px;
+    margin: 121px auto;
+}
+.seller-text h4{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+}
+.seller-text{
+    margin-bottom: 40px;
+}
+.seller-cart-container .seller-cart{
+    width: 370px;
+    height: 100px;
+    background-color: #fff; 
+    border-radius: 10px;
+    display: flex;
+}
+.seller-cart-container .seller-cart img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.seller-cart-container .seller-cart .tik{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 15px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.seller-name{
+    margin-top: 10px;
+}
+.seller-name h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.seller-name p{
+    color: rgba(90, 90, 90, 1);
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.seller-name .item {
+    color: rgba(90, 90, 90, 1);
+}
+.seller-cart a{
+    left: 82px;
+    font-size: 14px;
+    background-color: #fff;
+    height: 35px;
+    padding: 9px 19px;
+    border-radius: 7px;
+    position: relative;
+    top: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    color: #5A5A5A;
+    transition: 0.3s;
+}
+
+.seller-cart a:hover{
+    background-color: #CC00FF;
+    color: #fff;
+    transition: 0.3s;
+}
+.creat-sell-container{
+    width: 1176px;
+    margin: 121px auto;
+}
+.seller-cart-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.seller-cart{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.creat-sell-text h4{
+    font-size: 40px;
+}
+.creat-sellcart-container .sellcart{
+    width: 370px;
+    height: 370px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.creat-sellcart-container .sellcart .sellcart-img img{
+    width: 94px;
+    height: 94px;
+    margin-top: 20px;
+    margin-left: 19px;
+    margin-bottom: 30px;
+}
+.creat-sellcart-container .sellcart .sellcart-img{
+    background-color: rgba(255, 227, 182, 1);
+    width: 133px;
+    height: 133px;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 50px;
+}
+.creat-sellcart-container .sellcart h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.creat-sellcart-container .sellcart p{
+    color: rgba(90, 90, 90, 1);
+    font-size: 14px;
+    width: 330px;
+    height: 72px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.creat-sellcart-container .sellcart a{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    margin-left: 20px;
+    color:  rgba(90, 90, 90, 1);
+    transition: 0.3s;
+}
+.creat-sellcart-container .sellcart a:hover{
+    background: #CC00FF;
+    color: #fff;
+    transition: 0.3s;
+}
+.sellcart:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);    
+}
+.creat-sellcart-container{
+    display: flex;
+}
+
+.latest{
+    width: 1176px;
+    margin: 121px auto;
+}
+.latest-text h4{
+    font-size: 40px;
+}
+.latest-text{
+    margin-bottom: 30px;
+}
+.latest-cart{
+    width: 370px;
+    height: 436px;
+    background-color: #fff;
+    margin-left: 20px;
+} 
+.latest-cart img{
+    width: 370px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.latest-cart h4{
+    font-size: 20px;
+    width: 305px;
+    height: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+.latest-cart h4:hover{
+    color: #CC00FF;
+    transition: 0.3s;
+}
+.latest-cart p{
+    font-size: 14px;
+    width: 329px;
+    height: 44px;
+    color: rgba(90, 90, 90, 1);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.latest-cart hr{
+    margin-bottom: 20px;
+}
+.latest-cart .date-time{
+    display: flex;
+    align-items: center;
+}
+
+.latest-cart .date-time i{
+    color: #5A5A5A;
+}
+.latest-cart:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.latest-cart-container{
+    display: flex;
+}
+footer{
+    width: 1176px;
+    margin: 121px auto;
+}
+.footer-container{
+    display: flex;
+}
+
+.follow-container img{
+    width: 76px;
+height: 41.27px;
+margin-bottom: 33px;
+}
+.follow-container p{
+    width: 311px;
+height: 90px;
+margin-bottom: 30px;
+}
+.follow-container .social i{
+    background-color: #fff;
+    border-radius: 25px;
+    color: red;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #DDDDDD;
+    margin-right: 20px;
+}
+.follow-container .social{
+    display: flex;
+}
+.footer-menu h4{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 113px;
+}
+.footer-menu ul li {
+    margin-bottom: 20px;
+}
