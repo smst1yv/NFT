@@ -18,7 +18,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 79px auto;
 }
 
@@ -68,8 +69,9 @@ header {
 
 .world-container {
     display: flex;
-    width: 1116px;
-    margin: 152px auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 121px auto;
 }
 
 .nft-container {
@@ -227,8 +229,9 @@ header {
 }
 
 .nft-category-container {
-    width: 1116px;
-    margin: 152px auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 121px auto;
 }
 
 .nft-cart {
@@ -275,7 +278,8 @@ header {
 }
 
 .live-auctions {
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 
@@ -392,7 +396,8 @@ header {
     flex-wrap: wrap;
 }
 .product-container{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 
@@ -452,7 +457,8 @@ header {
     flex-wrap: wrap;
 }
 .creator-container{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 .creator-cart-container .creator-cart{
@@ -506,7 +512,8 @@ header {
 }
 
 .assets-container{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 .assets-container .assets-text-menu .assets-text h4{
@@ -623,9 +630,10 @@ header {
     flex-wrap: wrap;
 }
 .discover-container{
-    display: flex;
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
+    display: flex;
 }
 .discover-text{
     background-color: #fff;
@@ -666,7 +674,8 @@ header {
 }
 
 .top-seller-container{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 .seller-text h4{
@@ -733,7 +742,8 @@ header {
     transition: 0.3s;
 }
 .creat-sell-container{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 .seller-cart-container{
@@ -807,7 +817,8 @@ header {
 }
 
 .latest{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 .latest-text h4{
@@ -868,7 +879,8 @@ header {
     display: flex;
 }
 footer{
-    width: 1176px;
+    width: 100%;
+    max-width: 1200px;
     margin: 121px auto;
 }
 .footer-container{
